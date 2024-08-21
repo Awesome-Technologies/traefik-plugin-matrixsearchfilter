@@ -1,0 +1,8 @@
+displayName: Matrix Search Filter
+summary: Removes external MXIDs in the HTTP response body.
+type: middleware
+import: github.com/Awesome-Technologies/traefik-plugin-matrixsearchfilter
+compatibility: TODO
+testData:
+  lastModified: true
+  userIdRegex: "^@[a-z0-9\._=\-\/\+]+:example\.com$"
